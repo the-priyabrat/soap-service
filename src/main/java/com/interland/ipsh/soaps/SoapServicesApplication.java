@@ -29,6 +29,7 @@ public class SoapServicesApplication {
 		stringList.add("Joseph Thomas");
 		stringList.add("Afras");
 		stringList.add("Subham Mishra");
+		System.out.println("Hello soap");
 //		stringList.stream().filter(name -> name.equals("Priyabrat")).forEach(System.out::println);
 //		System.out.println("_________________________________________");
 //		stringList.stream().map(name -> name.concat(" Swain")).forEach(System.out::println);
