@@ -3,13 +3,13 @@ package com.interland.ipsh.soaps;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.Random;
 import java.util.stream.Collectors;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
 import org.springframework.scheduling.annotation.EnableScheduling;
-
-import com.interland.ipsh.soaps.service.FileUploadServiceImplementation;
 
 @EnableScheduling
 @SpringBootApplication
@@ -40,5 +40,10 @@ public class SoapServicesApplication {
 //				.collect(Collectors.groupingBy(name -> name, Collectors.counting()));
 //		results.keySet()
 //				.forEach(status -> System.out.println("key :" + status + " -> " + "counting:" + results.get(status)));
+	}
+
+	@Bean
+	Random random() {
+		return new Random();
 	}
 }
