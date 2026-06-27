@@ -1,20 +1,20 @@
-package com.interland.ipsh.soaps.endpoint;
+package com.pri.project.soaps.endpoint;
 
-import org.interland.ipsh.designationlist.DepartmentList;
-import org.interland.ipsh.designationlist.DepartmentRequest;
-import org.interland.ipsh.designationlist.DepartmentSaveRequest;
-import org.interland.ipsh.designationlist.DepartmentSaveResponse;
-import org.interland.ipsh.designationlist.DesignationList;
-import org.interland.ipsh.designationlist.GetDepartmentsRequest;
-import org.interland.ipsh.designationlist.SearchParamRequest;
-import org.interland.ipsh.designationlist.SearchResponse;
+import org.pri.project.designationlist.DepartmentList;
+import org.pri.project.designationlist.DepartmentRequest;
+import org.pri.project.designationlist.DepartmentSaveRequest;
+import org.pri.project.designationlist.DepartmentSaveResponse;
+import org.pri.project.designationlist.DesignationList;
+import org.pri.project.designationlist.GetDepartmentsRequest;
+import org.pri.project.designationlist.SearchParamRequest;
+import org.pri.project.designationlist.SearchResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.ws.server.endpoint.annotation.Endpoint;
 import org.springframework.ws.server.endpoint.annotation.PayloadRoot;
 import org.springframework.ws.server.endpoint.annotation.RequestPayload;
 import org.springframework.ws.server.endpoint.annotation.ResponsePayload;
 
-import com.interland.ipsh.soaps.service.DesignationService;
+import com.pri.project.soaps.service.DesignationService;
 
 @Endpoint
 public class DesignationListEndpoint {

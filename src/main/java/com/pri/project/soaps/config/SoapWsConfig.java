@@ -1,4 +1,4 @@
-package com.interland.ipsh.soaps.config;
+package com.pri.project.soaps.config;
 
 import java.util.List;
 

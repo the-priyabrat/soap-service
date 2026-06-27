@@ -1,15 +1,15 @@
-package com.interland.ipsh.soaps.endpoint;
+package com.pri.project.soaps.endpoint;
 
-import org.interland.ipsh.designationlist.TransactionResponse;
-import org.interland.ipsh.designationlist.TransactionsRequest;
+import org.pri.project.designationlist.TransactionResponse;
+import org.pri.project.designationlist.TransactionsRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.ws.server.endpoint.annotation.Endpoint;
 import org.springframework.ws.server.endpoint.annotation.PayloadRoot;
 import org.springframework.ws.server.endpoint.annotation.RequestPayload;
 import org.springframework.ws.server.endpoint.annotation.ResponsePayload;
 
-import com.interland.ipsh.soaps.service.ScheduleService;
-import com.interland.ipsh.soaps.service.TransactionService;
+import com.pri.project.soaps.service.ScheduleService;
+import com.pri.project.soaps.service.TransactionService;
 
 @Endpoint
 public class TransactionEndpoint {

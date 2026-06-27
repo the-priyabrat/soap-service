@@ -1,4 +1,4 @@
-package com.interland.ipsh.soaps;
+package com.pri.project.soaps;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

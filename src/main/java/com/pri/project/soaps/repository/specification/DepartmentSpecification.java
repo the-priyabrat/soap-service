@@ -1,11 +1,11 @@
-package com.interland.ipsh.soaps.repository.specification;
+package com.pri.project.soaps.repository.specification;
 
 import org.json.simple.JSONObject;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.util.StringUtils;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.interland.ipsh.soaps.entity.Department;
+import com.pri.project.soaps.entity.Department;
 
 import jakarta.persistence.criteria.CriteriaBuilder;
 import jakarta.persistence.criteria.CriteriaQuery;

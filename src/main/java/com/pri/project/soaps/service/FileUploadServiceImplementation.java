@@ -1,21 +1,17 @@
-package com.interland.ipsh.soaps.service;
+package com.pri.project.soaps.service;
 
 import java.io.File;
 import java.io.IOException;
-import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Collections;
-import java.util.Random;
 
-import org.apache.tomcat.util.buf.Utf8Encoder;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.fasterxml.jackson.core.util.ByteArrayBuilder;
-import com.interland.ipsh.soaps.dto.ServiceResponse;
+import com.pri.project.soaps.dto.ServiceResponse;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

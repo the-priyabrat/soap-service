@@ -1,10 +1,8 @@
-package com.interland.ipsh.soaps.service;
-
-import java.io.File;
+package com.pri.project.soaps.service;
 
 import org.springframework.web.multipart.MultipartFile;
 
-import com.interland.ipsh.soaps.dto.ServiceResponse;
+import com.pri.project.soaps.dto.ServiceResponse;
 
 public interface FileUploadService {
 	ServiceResponse uploadFile(MultipartFile file);

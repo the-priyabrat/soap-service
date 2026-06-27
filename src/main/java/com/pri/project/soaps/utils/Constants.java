@@ -18,7 +18,7 @@
 CRId/ProjectId	Date Modified      	User		         Description		
 Prod_1.0.0	               			 
 *****************************************************************************/
-package com.interland.ipsh.soaps.utils;
+package com.pri.project.soaps.utils;
 
 import java.util.ArrayList;
 import java.util.List;

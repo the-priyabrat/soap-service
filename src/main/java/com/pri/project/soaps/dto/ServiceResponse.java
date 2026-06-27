@@ -1,4 +1,4 @@
-package com.interland.ipsh.soaps.dto;
+package com.pri.project.soaps.dto;
 
 import java.util.List;
 

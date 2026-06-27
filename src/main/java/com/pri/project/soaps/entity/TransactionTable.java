@@ -1,4 +1,4 @@
-package com.interland.ipsh.soaps.entity;
+package com.pri.project.soaps.entity;
 
 import java.time.LocalDateTime;
 

@@ -1,4 +1,4 @@
-package com.interland.ipsh.soaps.entity;
+package com.pri.project.soaps.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

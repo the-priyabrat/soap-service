@@ -1,4 +1,4 @@
-package com.interland.ipsh.soaps.utils;
+package com.pri.project.soaps.utils;
 
 public enum AuditFuctions {
 	CREATE("C"), MODIFY("M"), DELETE("D"), VERIFY("V");

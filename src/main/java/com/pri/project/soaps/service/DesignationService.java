@@ -1,4 +1,4 @@
-package com.interland.ipsh.soaps.service;
+package com.pri.project.soaps.service;
 
 import org.springframework.data.domain.Pageable;
 
@@ -7,16 +7,16 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-import org.interland.ipsh.designationlist.DepartmentList;
-import org.interland.ipsh.designationlist.DepartmentRequest;
-import org.interland.ipsh.designationlist.DepartmentSaveRequest;
-import org.interland.ipsh.designationlist.DepartmentSaveResponse;
-import org.interland.ipsh.designationlist.Designation;
-import org.interland.ipsh.designationlist.DesignationList;
-import org.interland.ipsh.designationlist.GetDepartmentsRequest;
-import org.interland.ipsh.designationlist.SearchParam;
-import org.interland.ipsh.designationlist.SearchResponse;
-import org.interland.ipsh.designationlist.Status;
+import org.pri.project.designationlist.DepartmentList;
+import org.pri.project.designationlist.DepartmentRequest;
+import org.pri.project.designationlist.DepartmentSaveRequest;
+import org.pri.project.designationlist.DepartmentSaveResponse;
+import org.pri.project.designationlist.Designation;
+import org.pri.project.designationlist.DesignationList;
+import org.pri.project.designationlist.GetDepartmentsRequest;
+import org.pri.project.designationlist.SearchParam;
+import org.pri.project.designationlist.SearchResponse;
+import org.pri.project.designationlist.Status;
 import org.json.simple.JSONArray;
 import org.springframework.beans.BeanUtils;
 import org.springframework.data.domain.Page;
@@ -26,10 +26,10 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.interland.ipsh.soaps.entity.Department;
-import com.interland.ipsh.soaps.exception.RecordNotExistException;
-import com.interland.ipsh.soaps.repository.DepartmentRepository;
-import com.interland.ipsh.soaps.repository.specification.DepartmentSpecification;
+import com.pri.project.soaps.entity.Department;
+import com.pri.project.soaps.exception.RecordNotExistException;
+import com.pri.project.soaps.repository.DepartmentRepository;
+import com.pri.project.soaps.repository.specification.DepartmentSpecification;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

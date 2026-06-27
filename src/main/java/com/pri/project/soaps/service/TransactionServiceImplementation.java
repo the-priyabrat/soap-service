@@ -1,14 +1,14 @@
-package com.interland.ipsh.soaps.service;
+package com.pri.project.soaps.service;
 
 import java.time.LocalDateTime;
 
-import org.interland.ipsh.designationlist.TransactionResponse;
-import org.interland.ipsh.designationlist.TransactionsRequest;
+import org.pri.project.designationlist.TransactionResponse;
+import org.pri.project.designationlist.TransactionsRequest;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
-import com.interland.ipsh.soaps.entity.TransactionTable;
-import com.interland.ipsh.soaps.repository.TransactionRepository;
-import com.interland.ipsh.soaps.utils.Constants;
+import com.pri.project.soaps.entity.TransactionTable;
+import com.pri.project.soaps.repository.TransactionRepository;
+import com.pri.project.soaps.utils.Constants;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

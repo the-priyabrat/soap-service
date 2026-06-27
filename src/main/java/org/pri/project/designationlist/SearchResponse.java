@@ -6,7 +6,7 @@
 //
 
 
-package org.interland.ipsh.designationlist;
+package org.pri.project.designationlist;
 
 import java.util.ArrayList;
 import java.util.List;

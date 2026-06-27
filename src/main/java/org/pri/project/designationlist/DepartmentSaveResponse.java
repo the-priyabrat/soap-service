@@ -6,7 +6,7 @@
 //
 
 
-package org.interland.ipsh.designationlist;
+package org.pri.project.designationlist;
 
 import jakarta.xml.bind.annotation.XmlAccessType;
 import jakarta.xml.bind.annotation.XmlAccessorType;

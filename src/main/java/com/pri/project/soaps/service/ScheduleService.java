@@ -1,13 +1,13 @@
-package com.interland.ipsh.soaps.service;
+package com.pri.project.soaps.service;
 
 import java.util.List;
 
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
-import com.interland.ipsh.soaps.entity.TransactionTable;
-import com.interland.ipsh.soaps.repository.TransactionRepository;
-import com.interland.ipsh.soaps.utils.Constants;
+import com.pri.project.soaps.entity.TransactionTable;
+import com.pri.project.soaps.repository.TransactionRepository;
+import com.pri.project.soaps.utils.Constants;
 
 import lombok.RequiredArgsConstructor;
 

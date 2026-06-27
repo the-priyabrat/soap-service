@@ -1,4 +1,4 @@
-package com.interland.ipsh.soaps.controller;
+package com.pri.project.soaps.controller;
 
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RequestPart;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.interland.ipsh.soaps.dto.ServiceResponse;
-import com.interland.ipsh.soaps.service.FileUploadService;
+import com.pri.project.soaps.dto.ServiceResponse;
+import com.pri.project.soaps.service.FileUploadService;
 
 import lombok.RequiredArgsConstructor;
 

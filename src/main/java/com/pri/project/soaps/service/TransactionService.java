@@ -1,9 +1,9 @@
-package com.interland.ipsh.soaps.service;
+package com.pri.project.soaps.service;
 
-import org.interland.ipsh.designationlist.TransactionResponse;
-import org.interland.ipsh.designationlist.TransactionsRequest;
+import org.pri.project.designationlist.TransactionResponse;
+import org.pri.project.designationlist.TransactionsRequest;
 
-import com.interland.ipsh.soaps.entity.TransactionTable;
+import com.pri.project.soaps.entity.TransactionTable;
 
 public interface TransactionService {
 	public TransactionResponse makeTransaction(TransactionsRequest request);

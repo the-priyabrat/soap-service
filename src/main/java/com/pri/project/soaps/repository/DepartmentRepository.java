@@ -1,4 +1,4 @@
-package com.interland.ipsh.soaps.repository;
+package com.pri.project.soaps.repository;
 
 import java.util.List;
 
@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import com.interland.ipsh.soaps.entity.Department;
+import com.pri.project.soaps.entity.Department;
 
 @Repository
 public interface DepartmentRepository extends JpaRepository<Department, Long>, JpaSpecificationExecutor<Department> {

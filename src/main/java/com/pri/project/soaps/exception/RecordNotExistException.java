@@ -1,4 +1,4 @@
-package com.interland.ipsh.soaps.exception;
+package com.pri.project.soaps.exception;
 
 import org.springframework.ws.soap.server.endpoint.annotation.FaultCode;
 import org.springframework.ws.soap.server.endpoint.annotation.SoapFault;
